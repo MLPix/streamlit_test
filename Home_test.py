@@ -67,20 +67,3 @@ if csv_varibale is not None:
 st.header('And here is the end of this Demo - Use to quickly prototype anyhting and lauch')
 
 # to prevent the whole code from running again every time, on top of function that whould writn can add the decorator @st.chace command to save that and leave it untouche
-
-# Add a button
-#if st.button('Click Here'):
-#    st.write('Ah! nothing here!')
-#else:
-#    st.write('Maybe something is here')
-
-st.markdown(f'''
-<style>
-.stApp{{
-    background-image: url(https://unsplash.com/photos/IZ01rjX0XQA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-    background-image: cover
-}}
-</style>
-''', unsafe_allow_html=True
-)
-
